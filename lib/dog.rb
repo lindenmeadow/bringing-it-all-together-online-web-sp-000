@@ -41,6 +41,10 @@ class Dog
     end.first
   end
 
+  def update
+    
+  end
+
   def save
     sql = <<-SQL
       INSERT INTO dogs (name, breed)
